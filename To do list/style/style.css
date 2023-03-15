@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: dodgerblue; */
+    background: linear-gradient(to left, dodgerblue, hotpink);
+}
+
+.wrapper {
+    border: 1px solid darkgreen;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+}
+
+.input-message {
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+.padding {
+    padding: 0px;
+    height: max-content;
+}
